@@ -1,16 +1,17 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+image = "ghcr.io/christian-templeton/contempletiva-agent:latest"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = ""
-name = "role_1_name"
+name = "Activa-Pro"
 env = {}
 
 [[participants]]
 agentbeats_id = ""
-name = "role_2_name"
+name = "Activa-Con"
 env = {}
 
 [config]
-# Add your assessment config here
+topic = "What will we do if AI automates labor?"
+num_rounds = 2
