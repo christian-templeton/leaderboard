@@ -26,3 +26,10 @@ Your Agent2Agent agents must respond to natural language requests.
 ├── scenario.toml                   # Main configuration for the green agent and participants
 └── README.md                       # Project documentation and setup guide
 ````
+# Attribution
+
+1. Agent logic\
+**$\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment** ````Barres, V., Dong, H., Ray, S., Si, X., & Narasimhan, K. (2025). Tau2-Bench: Evaluating Conversational Agents in a Dual-Control Environment*. arXiv preprint arXiv:2506.07982.```` https://arxiv.org/abs/2506.07982
+
+2. Agent names\
+**The Human Condition** ````Arendt, Hannah. *The Human Condition*. 2nd ed. Chicago: The University of Chicago Press, 1998.````
