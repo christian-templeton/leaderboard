@@ -8,5 +8,5 @@ name = "Activa"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", BASE_URL = "https://api.openai.com/v1", MODEL = "gpt-4.1" }
 
 [config]
-domain = "retail"
+domain = "mock"
 num_rounds = 2
