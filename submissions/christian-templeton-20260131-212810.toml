@@ -1,0 +1,12 @@
+[green_agent]
+agentbeats_id = "019bfe70-eb34-7651-9bcd-f58389d104c5"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
+
+[[participants]]
+agentbeats_id = "019c1273-04aa-7373-bc42-5f1034acb031"
+name = "Activa"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", BASE_URL = "https://api.openai.com/v1", MODEL = "gpt-4.1" }
+
+[config]
+domain = "retail"
+num_rounds = 2
