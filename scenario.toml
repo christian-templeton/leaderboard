@@ -1,17 +1,17 @@
 [green_agent]
+# Contempletiva agent ID
 agentbeats_id = "019bfe70-eb34-7651-9bcd-f58389d104c5"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = "PASTE_ACTIVA_PRO_ID_HERE"
-name = "Activa-Pro"
-env = {}
-
-[[participants]]
-agentbeats_id = "PASTE_ACTIVA_CON_ID_HERE"
-name = "Activa-Con"
+# The 'agentbeats_id' is REQUIRED for GitHub Actions.
+# You must register your Activa agent on agentbeats.dev and paste its ID here.
+# Leaving this as an empty string will cause the "Generate docker-compose.yml" step to fail.
+agentbeats_id = "PASTE_YOUR_ACTIVA_AGENT_ID_HERE"
+name = "Activa"
 env = {}
 
 [config]
-topic = "What will we do if AI automates labor?"
+# Debate/Assessment configuration
+domain = "retail"
 num_rounds = 2
