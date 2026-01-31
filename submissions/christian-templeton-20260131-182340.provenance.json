@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/christian-templeton/contempletiva-agent@sha256:2f2b547ea337ee46781e8710140ef53cfdb31ee2ab2a8bfc1a853177e90d8700",
+    "Activa": "ghcr.io/christian-templeton/baseline@sha256:c46b5050d90f24e4cb0fb97d11780ddefb58f82cd1add6afe17a711160ff47b9",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T18:23:40Z",
+  "github_actions": {
+    "run_url": "https://github.com/christian-templeton/leaderboard/actions/runs/21548857659",
+    "run_logs_url": "https://api.github.com/repos/christian-templeton/leaderboard/actions/runs/21548857659/logs",
+    "ref": "refs/heads/christian-templeton-patch-9",
+    "sha": "34c5e47a9c3db9aaadbf41b99638651c1b61a867",
+    "repository_url": "https://github.com/christian-templeton/leaderboard",
+    "workflow_ref": "christian-templeton/leaderboard/.github/workflows/run-scenario.yml@refs/heads/christian-templeton-patch-9",
+    "workflow_sha": "34c5e47a9c3db9aaadbf41b99638651c1b61a867"
+  }
+}
