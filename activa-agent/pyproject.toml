@@ -1,0 +1,11 @@
+[project]
+name = "activa-purple-agent"
+version = "0.1.0"
+description = "A simple Activa (purple) agent for AgentBeats."
+dependencies = [
+    "a2a-sdk[http-server]>=0.3.22",
+    "uvicorn>=0.30.0",
+]
+
+[tool.uv]
+managed = true

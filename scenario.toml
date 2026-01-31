@@ -1,16 +1,17 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+# Contempletiva agent ID
+agentbeats_id = "019bfe70-eb34-7651-9bcd-f58389d104c5"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
+# ACTION REQUIRED: You must register your Activa agent on https://agentbeats.dev
+# and replace the placeholder below with your real agentbeats_id.
+# The GitHub Action will fail until a valid ID is provided.
+agentbeats_id = "REPLACE_WITH_YOUR_ACTIVA_AGENT_ID"
+name = "Activa"
 env = {}
 
 [config]
-# Add your assessment config here
+# Debate/Assessment configuration
+domain = "retail"
+num_rounds = 2
