@@ -4,10 +4,10 @@ agentbeats_id = "019bfe70-eb34-7651-9bcd-f58389d104c5"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-# The 'agentbeats_id' is REQUIRED for GitHub Actions.
-# You must register your Activa agent on agentbeats.dev and paste its ID here.
-# Leaving this as an empty string will cause the "Generate docker-compose.yml" step to fail.
-agentbeats_id = "PASTE_YOUR_ACTIVA_AGENT_ID_HERE"
+# ACTION REQUIRED: You must register your Activa agent on https://agentbeats.dev
+# and replace the placeholder below with your real agentbeats_id.
+# The GitHub Action will fail until a valid ID is provided.
+agentbeats_id = "REPLACE_WITH_YOUR_ACTIVA_AGENT_ID"
 name = "Activa"
 env = {}
 
