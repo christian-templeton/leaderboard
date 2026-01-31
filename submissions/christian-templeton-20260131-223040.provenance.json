@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/christian-templeton/contempletiva-agent@sha256:0f4cd3b445e4e766f03765b36d07f7b5a95704e83079dd5fb8ad54d7511add5c",
+    "Activa": "ghcr.io/christian-templeton/baseline@sha256:56a147a04eb16ac35da958b8c171f215f626d87b735b41d7d649c930b5ea5a9e",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T22:30:40Z",
+  "github_actions": {
+    "run_url": "https://github.com/christian-templeton/leaderboard/actions/runs/21551983478",
+    "run_logs_url": "https://api.github.com/repos/christian-templeton/leaderboard/actions/runs/21551983478/logs",
+    "ref": "refs/heads/run-1",
+    "sha": "411c99ca76fe91e60e27d7bafde2e6f401abf75d",
+    "repository_url": "https://github.com/christian-templeton/leaderboard",
+    "workflow_ref": "christian-templeton/leaderboard/.github/workflows/run-scenario.yml@refs/heads/run-1",
+    "workflow_sha": "411c99ca76fe91e60e27d7bafde2e6f401abf75d"
+  }
+}
