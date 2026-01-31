@@ -1,0 +1,11 @@
+{
+  "info": {
+    "time_used": 123.45,
+    "success": true
+  },
+  "tasks": {
+    "task_id_1": 1,
+    "task_id_2": 0,
+    "task_id_3": -1
+  }
+}
