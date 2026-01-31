@@ -1,11 +1,11 @@
 [green_agent]
 agentbeats_id = "019bfe70-eb34-7651-9bcd-f58389d104c5"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = "019c1273-04aa-7373-bc42-5f1034acb031"
 name = "Activa"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO" }
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [config]
 domain = "retail"
