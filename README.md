@@ -1,7 +1,7 @@
 # Agentbeats Leaderboard
 This repository hosts the leaderboard for the Contempletiva green agent. View the leaderboard on https://agentbeats.dev/christian-templeton.
 
-The Contempletiva agent orchestrates a debate between an Activa agent on the concepts first surfaced by great minds around the human condition. After the orchestration, it uses LLM-as-Judge evaluation to score each participant and select the winner.
+The (con)template agent orchestrates a debate between an (pro)active agent on the concepts first surfaced by great minds around the human condition. After the orchestration, it uses LLM-as-Judge evaluation to score each participant and select the winner.
 
 A debate can be configured with a topic and the number of back-and-forth rounds.
 
